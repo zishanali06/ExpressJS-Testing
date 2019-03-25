@@ -15,7 +15,3 @@ app.use(express.static(path.join(__dirname, "../public")));
 
 //LISTEN TO PORT 3000 for requests
 app.listen(3000);
-
-// app.use((req, res, next) => {
-
-// })
